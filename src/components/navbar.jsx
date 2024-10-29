@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <div className="w-screen p-5 absolute">
       <div className="flex items-center justify-between">
-        <div className="flex gap-5 items-center text-lg">
+        <div className="flex gap-10 items-center text-lg">
           <a href="google.com">
             <p className="text-xl italic">Adithya</p>
           </a>
