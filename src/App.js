@@ -1,8 +1,20 @@
 import "./App.css";
 import NavBar from "./components/navbar";
 import ProjectCard from "./components/projectcard";
+import SkillCard from "./components/skillcard";
 
 function App() {
+  const frontend = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "TailwindCSS",
+  ];
+  const backend = ["Express", "Monogdb", "Node", "FireBase", "AppWrite"];
+  const os = ["Linux", "Windows"];
+
   return (
     <div>
       <NavBar />
@@ -47,6 +59,23 @@ function App() {
             title="Discord Bot"
             desc="A simple discord bot built using Python and Discord.py"
             image="/discord.png"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col items-center">
+        <p className="text-center text-4xl text-cyan-400 p-10">Skills</p>
+        <div className="grid grid-cols-3 w-full">
+          <SkillCard
+            skillset={frontend}
+            title="FrontEnd"
+          />
+          <SkillCard
+            skillset={backend}
+            title="BackEnd"
+          />
+          <SkillCard
+            skillset={os}
+            title="OS"
           />
         </div>
       </div>
