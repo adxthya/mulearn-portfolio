@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mulearn-portfolio/static/css/main.097c5eff.css",
+    "main.js": "/mulearn-portfolio/static/js/main.3b7bfec5.js",
+    "static/js/453.6d5381e6.chunk.js": "/mulearn-portfolio/static/js/453.6d5381e6.chunk.js",
+    "index.html": "/mulearn-portfolio/index.html",
+    "main.097c5eff.css.map": "/mulearn-portfolio/static/css/main.097c5eff.css.map",
+    "main.3b7bfec5.js.map": "/mulearn-portfolio/static/js/main.3b7bfec5.js.map",
+    "453.6d5381e6.chunk.js.map": "/mulearn-portfolio/static/js/453.6d5381e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.097c5eff.css",
+    "static/js/main.3b7bfec5.js"
+  ]
+}
