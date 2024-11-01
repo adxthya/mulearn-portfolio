@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./components/contact";
 import NavBar from "./components/navbar";
 import ProjectCard from "./components/projectcard";
 import SkillCard from "./components/skillcard";
@@ -28,13 +29,15 @@ function App() {
           <div className="text-2xl">
             <p>
               I am someone who love to{" "}
-              <span className="italic text-violet-400">code</span> and <br />{" "}
-              build things on the internet
+              <span className="italic text-violet-400 underline">code</span> and{" "}
+              <br /> build things on the internet
             </p>
           </div>
           <div className="flex flex-col items-center absolute bottom-5 left-0 right-0 mx-auto">
             <div className="border-2 border-gray-500 p-2 rounded-md hover:bg-gray-600 hover:cursor-pointer">
-              <p>Connect with me</p>
+              <p>
+                <a href="#contact">Connect with me</a>
+              </p>
             </div>
           </div>
         </div>
@@ -77,6 +80,12 @@ function App() {
             skillset={os}
             title="OS"
           />
+        </div>
+      </div>
+      <div className="flex flex-col items-center">
+        <p className="text-center text-4xl text-cyan-400 p-10">Contact</p>
+        <div>
+          <Contact />
         </div>
       </div>
     </div>
