@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/mulearn-portfolio/static/css/main.097c5eff.css",
-    "main.js": "/mulearn-portfolio/static/js/main.3b7bfec5.js",
+    "main.js": "/mulearn-portfolio/static/js/main.d8ff7af1.js",
     "static/js/453.6d5381e6.chunk.js": "/mulearn-portfolio/static/js/453.6d5381e6.chunk.js",
+    "static/media/ecommerce.png": "/mulearn-portfolio/static/media/ecommerce.c059c0f0b44d1a753ee5.png",
+    "static/media/meditation.jpeg": "/mulearn-portfolio/static/media/meditation.14559d0c898316c6cf55.jpeg",
+    "static/media/discord.png": "/mulearn-portfolio/static/media/discord.78f34794c517a6fc243e.png",
     "index.html": "/mulearn-portfolio/index.html",
     "main.097c5eff.css.map": "/mulearn-portfolio/static/css/main.097c5eff.css.map",
-    "main.3b7bfec5.js.map": "/mulearn-portfolio/static/js/main.3b7bfec5.js.map",
+    "main.d8ff7af1.js.map": "/mulearn-portfolio/static/js/main.d8ff7af1.js.map",
     "453.6d5381e6.chunk.js.map": "/mulearn-portfolio/static/js/453.6d5381e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.097c5eff.css",
-    "static/js/main.3b7bfec5.js"
+    "static/js/main.d8ff7af1.js"
   ]
 }
